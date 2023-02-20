@@ -71,7 +71,7 @@ namespace Credit_Card
                 {
                     Console.WriteLine($"Недостаточно денег\n Ваш баланс составляет: {Balance}");
 
-                    Console.Write("Введите сумму которую вы хотите снять с кредитного лемита -> ");
+                    Console.Write("Введите сумму которую вы хотите снять с кредитного лимита -> ");
                     double dopsum = Convert.ToDouble(Console.ReadLine());
 
                     if (CreditLimit == 0 && CreditLimit < dopsum)
